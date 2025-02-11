@@ -1,0 +1,15 @@
+# load oh-my-zsh
+antigen use oh-my-zsh
+
+# use oh-my-zsh plugin
+antigen bundle git
+
+# use custom plugin
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-autosuggestions
+
+# load the theme
+antigen theme bira
+
+# apply antigen changes
+antigen apply
